@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Orbit Portal icon">
+  <defs>
+    <linearGradient id="bg" x1="18" y1="16" x2="108" y2="112" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e9d9ff"/>
+      <stop offset="0.4" stop-color="#9d8af7"/>
+      <stop offset="1" stop-color="#5647c9"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="32" y1="26" x2="100" y2="96" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.96"/>
+      <stop offset="1" stop-color="#dfe8ff" stop-opacity="0.7"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="62" y1="26" x2="98" y2="86" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffef8e"/>
+      <stop offset="1" stop-color="#ffb84d"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="128" height="128" rx="30" fill="url(#bg)"/>
+
+  <circle cx="64" cy="64" r="38" fill="none" stroke="url(#ring)" stroke-width="7.5" opacity="0.92"/>
+  <path d="M64 18c12 0 23 4.3 32 12.1 9.8 8.1 16 19.8 17.7 32.7l-14.8.7c-1.1-9.8-6.2-18.7-14.5-25.1C71.2 29.1 61.6 26.3 50.8 27.5l.5-14.8c4.3-.5 8.8-.7 12.7-.7Z" fill="url(#ring)" opacity="0.85"/>
+  <path d="M25.5 82.5c7.8-19 25.9-31.9 46.9-33.4l-2.3 15.2c-12.2 1.5-22.6 8.2-28.9 18.8l-15.7 9.4Z" fill="#e6e1ff" opacity="0.78"/>
+
+  <circle cx="64" cy="64" r="12" fill="#ffffff"/>
+  <circle cx="64" cy="64" r="7.5" fill="#6757d9"/>
+
+  <g transform="translate(90 30)">
+    <path d="M12 0 14.7 7.3 22 10l-7.3 2.7L12 20l-2.7-7.3L2 10l7.3-2.7L12 0Z" fill="url(#accent)"/>
+  </g>
+
+  <g transform="translate(23 78)">
+    <circle cx="7" cy="7" r="5" fill="#d9f4ff" opacity="0.9"/>
+    <circle cx="16" cy="18" r="3.3" fill="#ffffff" opacity="0.7"/>
+  </g>
+</svg>
